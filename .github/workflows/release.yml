@@ -51,7 +51,7 @@ jobs:
             })).data;
             console.log(mainRef);
             github.rest.git.createRef({
-              owner: 'nektos',
+              owner: 'ehoops-microsoft',
               repo: 'gh-act',
               ref: context.ref,
               sha: mainRef.object.sha,
@@ -62,6 +62,6 @@ jobs:
     steps:
       - uses: vedantmgoyal2009/winget-releaser@v2
         with:
-          identifier: nektos.act
+          identifier: ehoops-microsoft.act
           installers-regex: '_Windows_\w+\.zip$'
           token: ${{ secrets.WINGET_TOKEN }}
