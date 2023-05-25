@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nektos/act/pkg/common"
+	"github.com/ehoops-microsoft/act/pkg/common"
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
 )

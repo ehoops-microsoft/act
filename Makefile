@@ -82,7 +82,7 @@ install: build
 .PHONY: installer
 installer:
 	@GO111MODULE=off go get github.com/goreleaser/godownloader
-	godownloader -r nektos/act -o install.sh
+	godownloader -r ehoops-microsoft/act -o install.sh
 
 .PHONY: promote
 promote:

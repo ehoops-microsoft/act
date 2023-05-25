@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nektos/act/pkg/common"
-	"github.com/nektos/act/pkg/common/git"
+	"github.com/ehoops-microsoft/act/pkg/common"
+	"github.com/ehoops-microsoft/act/pkg/common/git"
 )
 
 type GithubContext struct {

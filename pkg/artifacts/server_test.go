@@ -14,8 +14,8 @@ import (
 	"testing/fstest"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/nektos/act/pkg/model"
-	"github.com/nektos/act/pkg/runner"
+	"github.com/ehoops-microsoft/act/pkg/model"
+	"github.com/ehoops-microsoft/act/pkg/runner"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 )

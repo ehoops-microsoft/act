@@ -1,4 +1,4 @@
-module github.com/nektos/act
+module github.com/ehoops-microsoft/act
 
 go 1.18
 

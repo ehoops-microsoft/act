@@ -7,7 +7,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/nektos/act/cmd"
+	"github.com/ehoops-microsoft/act/cmd"
 )
 
 //go:embed VERSION

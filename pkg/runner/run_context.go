@@ -19,10 +19,10 @@ import (
 
 	"github.com/opencontainers/selinux/go-selinux"
 
-	"github.com/nektos/act/pkg/common"
-	"github.com/nektos/act/pkg/container"
-	"github.com/nektos/act/pkg/exprparser"
-	"github.com/nektos/act/pkg/model"
+	"github.com/ehoops-microsoft/act/pkg/common"
+	"github.com/ehoops-microsoft/act/pkg/container"
+	"github.com/ehoops-microsoft/act/pkg/exprparser"
+	"github.com/ehoops-microsoft/act/pkg/model"
 )
 
 // RunContext contains info about current job
@@ -653,7 +653,7 @@ func (rc *RunContext) getGithubContext(ctx context.Context) *model.GithubContext
 	// Backwards compatibility for configs that require
 	// a default rather than being run as a cmd
 	if ghc.Actor == "" {
-		ghc.Actor = "nektos/act"
+		ghc.Actor = "ehoops-microsoft/act"
 	}
 
 	if rc.EventJSON != "" {

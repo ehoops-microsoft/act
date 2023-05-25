@@ -36,7 +36,7 @@ import (
 	"github.com/Masterminds/semver"
 	"golang.org/x/term"
 
-	"github.com/nektos/act/pkg/common"
+	"github.com/ehoops-microsoft/act/pkg/common"
 )
 
 // NewContainer creates a reference to a container
@@ -556,7 +556,7 @@ func (cr *containerReference) exec(cmd []string, env map[string]string, user, wo
 		case 0:
 			return nil
 		case 127:
-			return fmt.Errorf("exitcode '%d': command not found, please refer to https://github.com/nektos/act/issues/107 for more information", inspectResp.ExitCode)
+			return fmt.Errorf("exitcode '%d': command not found, please refer to https://github.com/ehoops-microsoft/act/issues/107 for more information", inspectResp.ExitCode)
 		default:
 			return fmt.Errorf("exitcode '%d': failure", inspectResp.ExitCode)
 		}

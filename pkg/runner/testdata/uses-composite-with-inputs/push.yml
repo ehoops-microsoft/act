@@ -21,7 +21,7 @@ jobs:
     #
     - name: use remote composite action
       id: remote-composite
-      uses: nektos/act-test-actions/composite@main
+      uses: ehoops-microsoft/act-test-actions/composite@main
       with:
         input: ${{ steps.set-output.outputs.var }}
     - name: test remote composite output

@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: ./uses-action-with-pre-and-post-step/last-action
-      - uses: nektos/act-test-actions/js-with-pre-and-post-step@main
+      - uses: ehoops-microsoft/act-test-actions/js-with-pre-and-post-step@main
         with:
           pre: true
           post: true

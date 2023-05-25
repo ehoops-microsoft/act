@@ -48,7 +48,7 @@ pull_request_rules:
           - needs-work
   - name: Automatic maintainer assignment
     conditions:
-      - '-approved-reviews-by=@nektos/act-maintainers'
+      - '-approved-reviews-by=@ehoops-microsoft/act-maintainers'
       - -draft
       - -merged
       - -closed
@@ -61,15 +61,15 @@ pull_request_rules:
     actions:
       request_reviews:
         teams:
-          - '@nektos/act-maintainers'
+          - '@ehoops-microsoft/act-maintainers'
   - name: Automatic merge on approval
     conditions:
       - '#changes-requested-reviews-by=0'
       - or:
-          - 'approved-reviews-by=@nektos/act-committers'
+          - 'approved-reviews-by=@ehoops-microsoft/act-committers'
           - 'author~=^dependabot(|-preview)\[bot\]$'
           - and:
-              - 'approved-reviews-by=@nektos/act-maintainers'
+              - 'approved-reviews-by=@ehoops-microsoft/act-maintainers'
               - '#approved-reviews-by>=2'
       - -draft
       - -merged

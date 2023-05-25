@@ -4,18 +4,18 @@
   <metadata>
     <id>act-cli</id>
     <version>0.0.0</version>
-    <packageSourceUrl>https://github.com/nektos/act</packageSourceUrl>
+    <packageSourceUrl>https://github.com/ehoops-microsoft/act</packageSourceUrl>
     <owners>nektos</owners>
     <title>act (GitHub Actions CLI)</title>
     <authors>nektos</authors>
-    <projectUrl>https://github.com/nektos/act</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/wiki/nektos/act/img/logo-150.png</iconUrl>
+    <projectUrl>https://github.com/ehoops-microsoft/act</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/wiki/ehoops-microsoft/act/img/logo-150.png</iconUrl>
     <copyright>Nektos</copyright>
-    <licenseUrl>https://raw.githubusercontent.com/nektos/act/master/LICENSE</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/ehoops-microsoft/act/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/nektos/act</projectSourceUrl>
-    <docsUrl>https://raw.githubusercontent.com/nektos/act/master/README.md</docsUrl>
-    <bugTrackerUrl>https://github.com/nektos/act/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/ehoops-microsoft/act</projectSourceUrl>
+    <docsUrl>https://raw.githubusercontent.com/ehoops-microsoft/act/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/ehoops-microsoft/act/issues</bugTrackerUrl>
     <tags>act github-actions actions golang ci devops</tags>
     <summary>Run your GitHub Actions locally 🚀</summary>
     <description>Run your GitHub Actions locally 🚀</description>

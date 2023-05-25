@@ -5,19 +5,19 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: nektos/act-test-actions/composite-js-pre-with-defaults/js@main
+    - uses: ehoops-microsoft/act-test-actions/composite-js-pre-with-defaults/js@main
       with:
         in: nix
-    - uses: nektos/act-test-actions/composite-js-pre-with-defaults@main
+    - uses: ehoops-microsoft/act-test-actions/composite-js-pre-with-defaults@main
       with:
         in: secretval
-    - uses: nektos/act-test-actions/composite-js-pre-with-defaults@main
+    - uses: ehoops-microsoft/act-test-actions/composite-js-pre-with-defaults@main
       with:
         in: secretval
-    - uses: nektos/act-test-actions/composite-js-pre-with-defaults/js@main
+    - uses: ehoops-microsoft/act-test-actions/composite-js-pre-with-defaults/js@main
       with:
         pre: "true"
         in: nix
-    - uses: nektos/act-test-actions/composite-js-pre-with-defaults/js@main
+    - uses: ehoops-microsoft/act-test-actions/composite-js-pre-with-defaults/js@main
       with:
         in: nix

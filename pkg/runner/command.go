@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/nektos/act/pkg/common"
+	"github.com/ehoops-microsoft/act/pkg/common"
 )
 
 var commandPatternGA *regexp.Regexp

@@ -6,8 +6,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/nektos/act/pkg/container"
-	"github.com/nektos/act/pkg/model"
+	"github.com/ehoops-microsoft/act/pkg/container"
+	"github.com/ehoops-microsoft/act/pkg/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

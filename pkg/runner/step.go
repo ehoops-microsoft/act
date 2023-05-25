@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nektos/act/pkg/common"
-	"github.com/nektos/act/pkg/container"
-	"github.com/nektos/act/pkg/exprparser"
-	"github.com/nektos/act/pkg/model"
+	"github.com/ehoops-microsoft/act/pkg/common"
+	"github.com/ehoops-microsoft/act/pkg/container"
+	"github.com/ehoops-microsoft/act/pkg/exprparser"
+	"github.com/ehoops-microsoft/act/pkg/model"
 )
 
 type step interface {

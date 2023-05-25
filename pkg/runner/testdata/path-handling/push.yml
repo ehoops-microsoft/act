@@ -9,7 +9,7 @@ jobs:
       - name: "Append to $GITHUB_PATH"
         run: |
           echo "/opt/hostedtoolcache/node/18.99/x64/bin" >> $GITHUB_PATH
- 
+
       - name: test path (after setup)
         run: |
           if ! echo "$PATH" |grep "/opt/hostedtoolcache/node/18.*/\(x64\|arm64\)/bin" ; then
@@ -27,7 +27,7 @@ jobs:
             exit 1
           fi
 
-      - uses: nektos/act-test-actions/composite@main
+      - uses: ehoops-microsoft/act-test-actions/composite@main
         with:
           input: some input
 

@@ -3,7 +3,7 @@ package runner
 import (
 	"testing"
 
-	"github.com/nektos/act/pkg/model"
+	"github.com/ehoops-microsoft/act/pkg/model"
 	"github.com/stretchr/testify/assert"
 )
 
