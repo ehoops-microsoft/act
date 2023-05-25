@@ -20,8 +20,8 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/format/gitignore"
 	"golang.org/x/term"
 
-	"github.com/nektos/act/pkg/common"
-	"github.com/nektos/act/pkg/lookpath"
+	"github.com/ehoops-microsoft/act/pkg/common"
+	"github.com/ehoops-microsoft/act/pkg/lookpath"
 )
 
 type HostEnvironment struct {

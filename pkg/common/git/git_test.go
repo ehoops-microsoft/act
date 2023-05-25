@@ -24,12 +24,12 @@ func TestFindGitSlug(t *testing.T) {
 	}{
 		{"https://git-codecommit.us-east-1.amazonaws.com/v1/repos/my-repo-name", "CodeCommit", "my-repo-name"},
 		{"ssh://git-codecommit.us-west-2.amazonaws.com/v1/repos/my-repo", "CodeCommit", "my-repo"},
-		{"git@github.com:nektos/act.git", "GitHub", "nektos/act"},
-		{"git@github.com:nektos/act", "GitHub", "nektos/act"},
-		{"https://github.com/nektos/act.git", "GitHub", "nektos/act"},
-		{"http://github.com/nektos/act.git", "GitHub", "nektos/act"},
-		{"https://github.com/nektos/act", "GitHub", "nektos/act"},
-		{"http://github.com/nektos/act", "GitHub", "nektos/act"},
+		{"git@github.com:ehoops-microsoft/act.git", "GitHub", "ehoops-microsoft/act"},
+		{"git@github.com:ehoops-microsoft/act", "GitHub", "ehoops-microsoft/act"},
+		{"https://github.com/ehoops-microsoft/act.git", "GitHub", "ehoops-microsoft/act"},
+		{"http://github.com/ehoops-microsoft/act.git", "GitHub", "ehoops-microsoft/act"},
+		{"https://github.com/ehoops-microsoft/act", "GitHub", "ehoops-microsoft/act"},
+		{"http://github.com/ehoops-microsoft/act", "GitHub", "ehoops-microsoft/act"},
 		{"git+ssh://git@github.com/owner/repo.git", "GitHub", "owner/repo"},
 		{"http://myotherrepo.com/act.git", "", "http://myotherrepo.com/act.git"},
 	}
